@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Route, IndexRoute} from 'react-router';
-import Nav_Bar from './Nav_Bar';
-class main extends Component {
+import Nav_Bar from './Components/Nav_Bar';
+
+class Home extends Component {
   render(){
     return(
       <div>
@@ -11,4 +12,4 @@ class main extends Component {
     );
   }
 }
-export default main;
+export default Home;

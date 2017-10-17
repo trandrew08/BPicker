@@ -1,7 +1,8 @@
 import React from 'react';
 import {Route, IndexRoute, browserHistory} from 'react-router';
 import { Provider } from 'react-redux';
-import main from './Components/main';
+import App from './App';
+import Home from './Components/Home';
 import About from './Components/About';
 
 //routing
@@ -9,10 +10,11 @@ import About from './Components/About';
 //IndexRoute makes it so that if it's on the slash, it will
 //also render the 2nd component App.
 //The other routes are just there to catch all possible hits
-//to the home page
+//to the App page
 export default (
-    <Route path="/" component={main}>
-    	<IndexRoute component={About}/>
-    	<Route path="/About" component={About}/>
+    <Route path="/" component={App}>
+      <IndexRoute component={Home}/>
+      <Route path="Home" component={Home}/>
+    	<Route path="About" component={About}/>
     </Route>
 );

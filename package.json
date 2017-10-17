@@ -1,7 +1,7 @@
 {
-  "name": "My_Website",
+  "name": "BPicker",
   "version": "1.0.0",
-  "description": "Andrew's Website",
+  "description": "Interactive Blockchain Platform Picker",
   "main": "./src/Client/index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trandrew08/trandrew08_site.git"
+    "url": "https://github.com/trandrew08/BPicker.git"
   },
   "author": "Andrew Tran",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/OctoConsulting/trandrew08_site/issues"
   },
-  "homepage": "https://github.com/trandrew08/cto#readme",
+  "homepage": "https://github.com/trandrew08/",
   "devDependencies": {
     "babel-core": "6.2.1",
     "babel-loader": "6.2.0",
