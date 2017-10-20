@@ -30,11 +30,11 @@
 
         <div class="collapse navbar-collapse" id="collapsed_navbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a id="button_home">Home</a></li>
+            <li><a id="button_home"></a></li>
 
-            <li><a id="button_about">About</a></li>
+            <li><a id="button_about"></a></li>
 
-            <li><a id="button_contact_us">Contact Us</a></li>
+            <li><a id="button_contact_us"></a></li>
           </ul>
         </div>
       </div>
@@ -46,7 +46,7 @@
       <!--WELCOME CARD-->
       <div id="welcome_card" class="w3-card-4" style="text-align:center">
         <header class="w3-container header">
-          <h3>Do I want Blockchain?</h3>
+          <h3 id="welcome_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -54,7 +54,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Hey there!</h4>
-                <span>I'm sure you're here because you are curious about Blockchain. Sometimes the newest and trendiest technology might not be right for your solution. This is an interactive little app that can help you determine whether you should use Blockchain for your project. Have fun!</span>
+                <span id="welcome_card_body"></span>
               </p>
             </div>
           </div>
@@ -71,11 +71,11 @@
       <!--ABOUT CARD-->
       <div id="about_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>About this tool</h3>
+          <h3 id="about_card_header"></h3>
         </header>
         <div class="w3-container">
           <p style="display:inline-block">
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+              <span id="about_card_body"></span>
             </p>
         </div>
       </div>
@@ -83,11 +83,11 @@
       <!--CONTACT US CARD-->
       <div id="contact_us_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>How To Contact Octo</h3>
+          <h3 id="contact_us_card_header"></h3>
         </header>
         <div class="w3-container">
           <p style="display:inline-block">
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+              <span id="contact_us_card_body"></span>
             </p>
         </div>
       </div>
@@ -96,7 +96,7 @@
       <!--DATABASE CARD-->
       <div id="database_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Does your project need a database?</h3>
+          <h3 id="database_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -108,7 +108,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="database_card_body"></span>
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@
       <!--SHARED WRITE ACCESS CARD-->
       <div id="shared_write_access_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Does it require shared write access?</h3>
+          <h3 id="shared_write_access_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -137,7 +137,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="shared_write_access_card_body"></span>
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@
       <!--TRUSTED PARTICIPANT CARD-->
       <div id="trusted_participant_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Are all participants known and trusted?</h3>
+          <h3 id="trusted_participant_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -167,7 +167,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="trusted_participant_card_body"></span>
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@
       <!--UNIFIED INTEREST PARTICIPANTS-->
       <div id="unified_interest_participant_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Do all participants have the same goals?</h3>
+          <h3 id="unified_interest_participant_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -197,7 +197,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="unified_interest_participant_card_body"></span>
               </p>
             </div>
           </div>
@@ -215,7 +215,7 @@
       <!--TRUSTED THIRD PARTY-->
       <div id="trusted_third_party_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Do you have a 3rd party that might need access to your system?</h3>
+          <h3 id="trusted_third_party_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -227,7 +227,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="trusted_third_party_card_body"></span>
               </p>
             </div>
           </div>
@@ -246,7 +246,7 @@
       <!--FUNCTIONALITY CONTROL-->
       <div id="functionality_control_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Do you need tight control over the system's functionalities?</h3>
+          <h3 id="functionality_control_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -258,7 +258,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="functionality_control_card_body"></span>
               </p>
             </div>
           </div>
@@ -277,7 +277,7 @@
       <!--CONSENSUS-->
       <div id="consensus_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Where is consensus determined?</h3>
+          <h3 id="consensus_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -289,7 +289,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Consensus Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="consensus_card_body"></span>
               </p>
             </div>
           </div>
@@ -307,7 +307,7 @@
       <!--TRANSACTION MODE-->
       <div id="transaction_mode_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>What about the visibility of your network transactions?</h3>
+          <h3 id="transaction_mode_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -319,7 +319,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Overview</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="transaction_mode_card_body"></span>
               </p>
             </div>
           </div>
@@ -337,7 +337,7 @@
       <!--PUBLIC BLOCKCHAIN-->
       <div id="public_blockchain_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>OUR RECOMMENDATION</h3>
+          <h3 id="public_blockchain_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -349,7 +349,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>A PUBLIC BLOCKCHAIN</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="public_blockchain_card_body"></span>
               </p>
             </div>
           </div>
@@ -365,7 +365,7 @@
       <!--HYBRID BLOCKCHAIN-->
       <div id="hybrid_blockchain_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>OUR RECOMMENDATION</h3>
+          <h3 id="hybrid_blockchain_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -377,7 +377,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>A HYBRID BLOCKCHAIN</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="hybrid_blockchain_card_body"></span>
               </p>
             </div>
           </div>
@@ -393,7 +393,7 @@
       <!--PRIVATE BLOCKCHAIN-->
       <div id="private_blockchain_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>OUR RECOMMENDATION</h3>
+          <h3 id="private_blockchain_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -405,7 +405,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>A PRIVATE BLOCKCHAIN</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="private_blockchain_card_body"></span>
               </p>
             </div>
           </div>
@@ -421,7 +421,7 @@
       <!--NO BLOCKCHAIN CARD-->
       <div id="no_blockchain_card" class="w3-card-4" style="text-align:center;display:none">
         <header class="w3-container header">
-          <h3>Blockchain is NOT for you!</h3>
+          <h3 id="no_blockchain_card_header"></h3>
         </header>
 
         <div class="w3-container">
@@ -433,7 +433,7 @@
             <div class="w3-container" style="text-align:center;display:inline-block;width:100%">
               <p style="display:inline-block">
                 <h4>Reason</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <span id="no_blockchain_card_body"></span>
               </p>
             </div>
           </div>
@@ -449,8 +449,7 @@
   <div id="page-footer" class="w3-container w3-black" style="text-align:center">
     <span style="color:white">Copyright © 2017 Octo Consulting Group</span>
   </div>
-
-  <script type="text/javascript" src="./js/main.js"/>
+  <script type="text/javascript" src="./js/loader.js"/>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/c39dcdfb59.js"></script>
 </html>

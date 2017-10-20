@@ -1,0 +1,59 @@
+{
+  "navbar" : {
+  "logo_path": "../img/octo_logo.png",
+  "company_name": "OCTO CONSULTING",
+  "menu_items": ["Home", "About", "Contact Us"]
+},
+
+"card" : {
+  "headers" : {
+    "welcome_card" : "Do I want Blockchain?",
+    "about_card" : "About this tool",
+    "contact_us_card" : "How To Contact Octo",
+    "database_card" : "Does your project need a database?",
+    "shared_write_access_card" : "Does it require shared write access?",
+    "trusted_participant_card" : "Are all participants known and trusted?",
+    "unified_interest_participant_card" : "Do all participants have the same goals?",
+    "trusted_third_party_card" : "Do you have a 3rd party that might need access to your system?",
+    "functionality_control_card" : "Do you need tight control over the system's functionalities?",
+    "consensus_card" : "Where is consensus determined?",
+    "transaction_mode_card" : "What about the visibility of your network transactions?",
+    "public_blockchain_card" : "OUR RECOMMENDATION",
+    "hybrid_blockchain_card" : "OUR RECOMMENDATION",
+    "private_blockchain_card" : "OUR RECOMMENDATION",
+    "no_blockchain_card" : "Blockchain is NOT for you!"
+  },
+
+  "pictures" : {
+    "database_card" : "../img/database.png",
+    "shared_write_access_card" : "../img/database.png",
+    "trusted_participant_card" : "../img/database.png",
+    "unified_interest_participant_card" : "./img/database.png",
+    "trusted_third_party_card" : "../img/database.png",
+    "functionality_control_card" : "../img/database.png",
+    "consensus_card" : "../img/database.png",
+    "transaction_mode_card" : "../img/database.png",
+    "public_blockchain_card" : "../img/database.png",
+    "hybrid_blockchain_card" : "../img/database.png",
+    "private_blockchain_card" : "../img/database.png",
+    "no_blockchain_card" : "../img/question_mark.svg"
+  },
+  "body" : {
+    "welcome_card" : "I'm sure you're here because you are curious about Blockchain. Sometimes the newest and trendiest technology might not be right for your solution. This is an interactive little app that can help you determine whether you should use Blockchain for your project. Have fun!",
+    "about_card" : "Lorem Ipsum",
+    "contact_us_card" : "Lorem Ipsum",
+    "database_card" : "Lorem Ipsum",
+    "shared_write_access_card" : "Lorem Ipsum",
+    "trusted_participant_card" : "Lorem Ipsum",
+    "unified_interest_participant_card" : "Lorem Ipsum",
+    "trusted_third_party_card" : "Lorem Ipsum",
+    "functionality_control_card" : "Lorem Ipsum",
+    "consensus_card" : "Lorem Ipsum",
+    "transaction_mode_card" : "Lorem Ipsum",
+    "public_blockchain_card" : "Lorem Ipsum",
+    "hybrid_blockchain_card" : "Lorem Ipsum",
+    "private_blockchain_card" : "Lorem Ipsum",
+    "no_blockchain_card" : "Lorem Ipsum"
+  }
+}
+}
